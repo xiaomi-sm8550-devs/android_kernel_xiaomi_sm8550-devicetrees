@@ -8,6 +8,8 @@ else ifeq ($(CONFIG_TARGET_PRODUCT_NUWA),y)
 dtbo-y += display/nuwa-sde-display-mtp-overlay.dtbo
 else ifeq ($(CONFIG_TARGET_PRODUCT_VERMEER),y)
 dtbo-y += display/vermeer-sde-display-mtp-overlay.dtbo
+else ifeq ($(CONFIG_TARGET_PRODUCT_SHENG),y)
+dtbo-y += display/sheng-sde-display-mtp-overlay.dtbo
 else
 dtbo-$(CONFIG_ARCH_KALAMA) += \
 		display/kalama-sde-display-rumi-overlay.dtbo \
