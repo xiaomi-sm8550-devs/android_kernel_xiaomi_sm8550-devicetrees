@@ -4,6 +4,8 @@ ifeq ($(CONFIG_TARGET_PRODUCT_SOCRATES),y)
 dtbo-y += socrates-sm8550-camera-sensor.dtbo
 else ifeq ($(CONFIG_TARGET_PRODUCT_FUXI),y)
 dtbo-y += fuxi-sm8550-camera-sensor.dtbo
+else ifeq ($(CONFIG_TARGET_PRODUCT_ISHTAR),y)
+dtbo-y += ishtar-sm8550-camera-sensor.dtbo
 else ifeq ($(CONFIG_TARGET_PRODUCT_NUWA),y)
 dtbo-y += nuwa-sm8550-camera-sensor.dtbo
 else ifeq ($(CONFIG_TARGET_PRODUCT_VERMEER),y)
