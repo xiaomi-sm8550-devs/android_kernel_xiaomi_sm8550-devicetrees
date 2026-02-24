@@ -129,7 +129,7 @@
 	qcom,rt;
 	goodix@0 {
 		status = "ok";
-		compatible = "goodix,gt9916S";
+		compatible = "goodix,gt9916S2";
 		reg = <0>;
 		spi-max-frequency = <15000000>;
 		interrupt-parent = <&tlmm>;
@@ -143,6 +143,7 @@
 		//goodix,avdd-gpio = <&tlmm 71 0x0>;
 		goodix,iovdd-name = "vdd";
 		vdd-supply = <&L12B>;
+		goodix,touch-type = "primary";
 		goodix,irq-gpio = <&tlmm 25 GPIO_TRANSITORY>;
 		goodix,reset-gpio = <&tlmm 24 GPIO_ACTIVE_HIGH>;
 		goodix,irq-flags = <IRQ_TYPE_EDGE_FALLING>;
