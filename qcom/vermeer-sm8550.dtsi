@@ -134,6 +134,7 @@
 		goodix,panel-max-p = <4096>;
 		goodix,firmware-name = "goodix_firmware_vermeer.bin";
 		goodix,config-name = "goodix_cfg_group_vermeer.bin";
+		goodix,thp-config-name = "vermeer_thp_config.ini";
 		goodix,support-thp-fw;
 	};
 };
